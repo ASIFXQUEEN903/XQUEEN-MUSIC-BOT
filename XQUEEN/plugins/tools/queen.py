@@ -19,7 +19,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "𓆩⚡ 𝙊𝙋𝙀𝙉 𝙍𝙀𝙋𝙊 ⚡𓆪", url="https://github.com/ASIFXQUEEN903/XQUEEN-MUSIC--903"
+                        "𓆩⚡ 𝙊𝙋𝙀𝙉 𝙍𝙀𝙋𝙊 ⚡𓆪", url="https://github.com/ASIFXQUEEN903/XQUEEN-MUSIC-BOT"
                     )
                 ]
             ]
