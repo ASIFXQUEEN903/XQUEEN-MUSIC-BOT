@@ -21,7 +21,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 10000))
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
-# Get this value from @purvi_music_bot on Telegram by /id
+# Get this value from @rose_bot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", 5099049612))
 
 ## Fill these variables if you're deploying on heroku.
@@ -36,8 +36,7 @@ UPSTREAM_REPO = getenv(
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "XQUEEN")
 GIT_TOKEN = getenv(
-    "GIT_TOKEN", None
-)  # Fill this variable if your upstream repository is private
+    "GIT_TOKEN", "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")  # Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ARAME9")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/aoclifelifestyl")
